@@ -45,7 +45,7 @@ const Main = () => {
 
     const options = {
       method: "GET",
-      url: "http://localhost:5000/setlist",
+      url: "/setlist",
       params: { artistName: searchKey },
     };
 

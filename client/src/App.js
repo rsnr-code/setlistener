@@ -13,7 +13,7 @@ function App() {
 
   // Spotify API Authorization
   const CLIENT_ID = "345e769ef981466e9ee4f8588d86175c";
-  const REDIRECT_URI = "http://localhost:3000/";
+  const REDIRECT_URI = "https://setlistener.onrender.com/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
   const SCOPE = "playlist-modify-private";
